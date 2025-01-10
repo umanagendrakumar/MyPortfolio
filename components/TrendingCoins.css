@@ -1,0 +1,27 @@
+.trending-coins {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  .trending-coins ul {
+    list-style: none;
+    padding: 0;
+  }
+  .trending-coins li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .trending-coins img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  .coin-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .coin-name {
+    font-weight: bold;
+  }
+  
