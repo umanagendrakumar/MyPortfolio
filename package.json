@@ -2,7 +2,7 @@
   "name": "basics",
   "version": "1.0.0",
   "description": "basic code practice using react",
-  "main": "index.html",
+
   "scripts": {
     "start": "parcel index.html",
     "test": "jest"
