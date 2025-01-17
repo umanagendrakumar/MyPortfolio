@@ -1,44 +1,60 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-import PriceCard from './components/PriceCard';
-import TrendingCoins from './components/TrendingCoins';
-import ChartComponent from './components/ChartComponent';
-import YouMayLikeCarousel from './components/YouMayLikeCarousel';
-import { getTrendingCoins } from './services/api';
-
+import Header from './src/components/HeaderComp/Header';
+import Body from './src/components/BodyComp/Body';
+import Footer from './src/components/FooterComp/Footer';
+import './index.css';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import About from './src/components/BodyComp/AboutPage';
+import Skills from './src/components/BodyComp/SkillsPage';
+import Projects from './src/components/BodyComp/ProjectsPage';
+import Contact from './src/components/BodyComp/ContactPage';
 
 
 
 const App = () => {
-    const [trendingCoins, setTrendingCoins] = useState([]);
-  
-    useEffect(() => {
-      const fetchTrendingCoins = async () => {
-        const data = await getTrendingCoins();
-        setTrendingCoins(data.coins);
-      };
-      fetchTrendingCoins();
-    }, []);
-  
-    return (
-      <div className="app">
-        <header className="app-header">
-          <h1>KoinX Frontend Assignment</h1>
-        </header>
-        <main>
-          <PriceCard />
-          <ChartComponent />
-          <TrendingCoins />
-          <h2>You May Also Like</h2>
-          <YouMayLikeCarousel coins={trendingCoins} />
-        </main>
-      </div>
-    );
-  };
-  
+  return (
+    <>
+      <Header />
+      <Outlet />
+      <Footer />
+    </>
+  );
+};
+
+
+const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children:[
+      {
+        path: "/",
+        element: <Body />
+      },
+      {
+        path: "/about",
+        element: <About />
+      },
+      {
+        path: "/skills",
+        element: <Skills />
+      },
+      {
+        path: "/projects",
+        element: <Projects />
+      },
+      {
+        path: "/contact",
+        element: <Contact />
+      }
+    ]
+  }
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App/>);
+root.render(<RouterProvider router={appRouter}/>);
 
 
 

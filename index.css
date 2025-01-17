@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    /* border: 2px solid black; */
+    /* max-width: 80%;
+    margin-inline: auto; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 1px solid rgb(239, 238, 238);
+}
+
+.header .navitems {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 50px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.body {
+    /* border: 2px solid black; */
+    /* max-width: 80%; */
+    /* margin-inline: auto; */
+    /* text-align: center; */
+    padding: 2rem;
+    border-bottom: 1px solid rgb(239, 238, 238);
+
+}
+
+.contact {
+    /* height: 80dvh; */
+    text-align: center;
+    padding: 4.5rem;
+   
+    /* border: 2px solid ; */
+}
+
+.contact .contact-btn-section {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-btn {
+    padding-inline: 10px;
+    padding-block: 7px;
+    border-radius: 7px;
+    border: 1px solid rgb(208, 207, 207);
+    /* background: ; */ 
+}
+.contact-form {
+    /* border: 2px solid rebeccapurple; */
+    padding: 0.5rem;
+}
+.contact-form form {
+    /* border: 2px solid red; */
+    max-width: 500px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form>* {
+    padding: 1rem;
+    margin: 0.2rem;
+}
+
+.contact-form .contact-submit {
+    cursor: pointer;
+}
+
+
+
+
+
+.footer {
+    /* border: 2px solid black; */
+    /* max-width: 80%;
+    margin-inline: auto; */
+    text-align: center;
+    padding: 2rem;
+}
