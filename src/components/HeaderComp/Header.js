@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import logo from '../../../assets/logo.jpg';
 const Header = () => {
     return (
 
         <div className="header">
-            <img src="/" alt="logo" />
+            <img className="logo-img" src={logo} alt="logo" />
             <div className="navitems">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
