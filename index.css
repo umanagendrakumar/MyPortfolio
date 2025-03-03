@@ -1,26 +1,39 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-
+::selection {
+    background-color: black;
+    color: white;
+}
 
 .header {
     /* border: 2px solid black; */
     /* max-width: 80%;
     margin-inline: auto; */
+    background-color: white;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: 10dvh;
     border-bottom: 1px solid rgb(239, 238, 238);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
+.header .logo-img {
+    width: 100px;
+}
 .header .navitems {
     /* border: 2px solid red; */
     display: flex;
     gap: 50px;
-    
+
 }
 
 a {
@@ -28,26 +41,236 @@ a {
     color: black;
 }
 
+.cover80 {
+    height: 70dvh;
+    /* border: 2px solid red; */
+}
 
 .body {
     /* border: 2px solid black; */
     /* max-width: 80%; */
     /* margin-inline: auto; */
     /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
     padding: 2rem;
-    border-bottom: 1px solid rgb(239, 238, 238);
+
 
 }
+
+.body .body-left {
+    /* border: 5px solid rgb(219, 24, 24); */
+    padding: 10px;
+}
+
+.img-container {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+}
+
+.img-container .my-image {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.body .body-right {
+    text-align: center;
+    /* border: 5px solid rgb(219, 24, 24); */
+    padding: 5px;
+
+}
+
+.body .body-right .body-right-hello {
+    color: #555555;
+    font-size: 16px;
+    font-weight: 800;
+    padding-block: 10px;
+
+}
+
+.body .body-right .body-right-title {
+    color: #555555;
+    padding-block: 10px;
+}
+
+.body-right .body-btn-section {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.body-right .body-btn-section .body-btn {
+    padding-block: 15px;
+    padding-inline: 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.body-btn-section .body-btn-download:hover {
+    background-color: black;
+    color: white;
+
+}
+
+
+.body-btn-section .body-btn-contact {
+    background-color: black;
+    color: white;
+}
+
+.links-section {
+    /* border: 2px solid black; */
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px
+}
+
+
+
+.links-section .body-link {
+    border: 1px dotted black;
+    padding-block: 10px;
+    padding-inline: 20px;
+    font-weight: bold;
+}
+
+.links-section .linkedin-link {
+    color: rgb(14, 89, 229);
+}
+
+.links-section .linkedin-link:hover {
+    border-color: rgb(14, 89, 229);
+    background-color: rgb(14, 89, 229);
+    color: white;
+}
+
+.links-section .github-link:hover {
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.links-section .leetcode-link {
+    color: rgb(206, 157, 35);
+}
+
+.links-section .leetcode-link:hover {
+    border-color: rgb(206, 157, 35);
+    background-color: rgb(206, 157, 35);
+    color: white;
+}
+
+.links-section .gmail-link {
+    color: rgb(193, 82, 82);
+}
+
+.links-section .gmail-link:hover {
+    border-color: rgb(193, 82, 82);
+    background-color: rgb(193, 82, 82);
+    color: white;
+}
+
+.about {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 2rem;
+}
+
+.about .about-left {
+    /* border: 2px solid red; */
+    padding: 25px;
+    max-width: 500px;
+
+}
+
+.about-left .about-heading1 {
+    /* border: 1px solid red; */
+    color: rgb(115, 112, 112);
+    font-size: medium;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.about-left .about-heading2 {
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.about-cards {
+    /* border: 2px solid red; */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-cards .card {
+    border: 1px solid rgb(201, 201, 201);
+    padding-inline: 10px;
+    padding-block: 15px;
+    text-align: center;
+    flex: 1;
+
+    /* max-width: 250px; */
+}
+
+.card .card-img {
+    width: 30px;
+}
+
+.card .card-head {
+    margin-bottom: 7px;
+}
+
+
+
+.about-left .about-para {
+    /* border: 1px solid rgb(206, 157, 35); */
+    padding: 5px;
+    text-align: justify;
+}
+
+.about-para .about-para-bold {
+    font-weight: bold;
+}
+
+
 
 .contact {
-    /* height: 80dvh; */
-    text-align: center;
-    padding: 4.5rem;
-   
-    /* border: 2px solid ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 
-.contact .contact-btn-section {
+.contact-container {
+    /* height: 80dvh; */
+    text-align: center;
+    padding: 1rem;
+
+    /* border: 2px solid black; */
+   
+}
+
+.contact-container .contact-btn-section {
     /* border: 2px solid red; */
     display: flex;
     gap: 50px;
@@ -60,12 +283,14 @@ a {
     padding-block: 7px;
     border-radius: 7px;
     border: 1px solid rgb(208, 207, 207);
-    /* background: ; */ 
+    /* background: ; */
 }
+
 .contact-form {
     /* border: 2px solid rebeccapurple; */
     padding: 0.5rem;
 }
+
 .contact-form form {
     /* border: 2px solid red; */
     max-width: 500px;
@@ -93,4 +318,11 @@ a {
     margin-inline: auto; */
     text-align: center;
     padding: 2rem;
+ 
+    border-top: 1px solid rgb(239, 238, 238);
+    position: sticky;
+    bottom: 0;
+
+
+    z-index: 1000;
 }
