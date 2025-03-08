@@ -1,16 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import logo from '../../../assets/logo.jpg';
+
 const Header = () => {
     return (
 
         <div className="header">
             <img className="logo-img" src={logo} alt="logo" />
             <div className="navitems">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/skills">Skills</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="home" smooth={true} duration={500}>Home</Link>
+                <Link to="about" smooth={true} duration={500}>About</Link>
+                <Link to="skills" smooth={true} duration={500}>Skills</Link>
+                <Link to="projects" smooth={true} duration={500}>Projects</Link>
+                <Link to="contact" smooth={true} duration={500}>Contact</Link>
             </div>
         </div>
 
