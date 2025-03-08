@@ -2,7 +2,7 @@
 
 const Projects = () => {
     return (
-        <div className="body">
+        <div className="projects cover80">
             <h1>Iam Projects</h1>
         </div>
     );

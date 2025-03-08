@@ -3,7 +3,7 @@ import eduLogo from '../../../assets/degree.png';
 import togetherLogo from '../../../assets/together.png';
 const About = () => {
     return (
-        <div className="about cover80">
+        <div className="about cover80" id='about'>
             <div className="about-left">
                 <div className="about-heading1">Get To Know More</div>
                 <div className="about-heading2">About ME</div>
