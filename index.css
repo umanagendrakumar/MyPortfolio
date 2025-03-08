@@ -9,6 +9,7 @@
     color: white;
 }
 
+
 .header {
     /* border: 2px solid black; */
     /* max-width: 80%;
@@ -24,16 +25,23 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+
+    height: 10vh;
 }
 
 .header .logo-img {
     width: 100px;
 }
+
 .header .navitems {
     /* border: 2px solid red; */
     display: flex;
     gap: 50px;
 
+}
+
+.navitems * {
+    cursor: pointer;
 }
 
 a {
@@ -42,8 +50,14 @@ a {
 }
 
 .cover80 {
-    height: 70dvh;
-    /* border: 2px solid red; */
+    height: 90vh;
+}
+
+.body,
+.about,
+.skills,
+.projects {
+    border-bottom: 1px solid rgb(214, 214, 214);
 }
 
 .body {
@@ -254,6 +268,160 @@ a {
 
 
 
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.skills .skills-wrapper .skills-head {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.skills-wrapper .skills-hub {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+align-items: center;
+    color: white;
+    /* gap: 1rem; */
+}
+
+.skills-wrapper .skills-hub .skill-card {
+    min-width: 200px;
+    min-height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+
+
+}
+
+.skills-hub .dev-card,
+.html-card,
+.css-card,
+.js-card {
+    background-color: rgb(175, 151, 57);
+}
+
+.skills-hub .dev-card {
+    grid-row: 1/4;
+    grid-column: 1/4;
+}
+
+.skills-hub .html-card {
+    grid-row: 1;
+    grid-column: 4/7;
+}
+
+.skills-hub .css-card {
+    grid-row: 2;
+    grid-column: 4/7;
+}
+
+.skills-hub .js-card {
+    grid-row: 3;
+    grid-column: 4/7;
+}
+
+.skills-hub .frame-card,
+.tcss-card,
+.rjs-card {
+    background-color: rgb(61, 121, 147);
+}
+
+.skills-hub .frame-card {
+    grid-row: 4/6;
+    grid-column: 4/7;
+}
+
+.skills-hub .tcss-card {
+    grid-row: 4;
+    grid-column: 1/4;
+}
+
+
+.skills-hub .rjs-card {
+    grid-row: 5;
+    grid-column: 1/4;
+}
+
+.skills-hub .vcs-card,
+.git-card,
+.github-card,
+.gitlab-card {
+    background-color: rgb(0, 0, 0);
+}
+
+.skills-hub .vcs-card {
+    grid-row: 6/9;
+    grid-column: 1/4;
+}
+
+.skills-hub .git-card {
+    grid-row: 6;
+    grid-column: 4/7;
+}
+
+.skills-hub .github-card {
+    grid-row: 7;
+    grid-column: 4/7;
+}
+
+.skills-hub .gitlab-card {
+    grid-row: 8;
+    grid-column: 4/7;
+}
+
+.skills-hub .java-card,
+.dsa-card,
+.sql-card,
+.dbms-card,
+.cn-card,
+.os-card {
+    background-color: rgb(48, 60, 123);
+}
+
+.skills-hub .java-card {
+    grid-row: 2;
+    grid-column: 7/10;
+}
+
+.skills-hub .dsa-card {
+    grid-row: 3;
+    grid-column: 7/10;
+}
+
+.skills-hub .sql-card {
+    grid-row: 5;
+    grid-column: 7/10;
+}
+
+.skills-hub .dbms-card {
+    grid-row: 6;
+    grid-column: 7/10;
+}
+
+.skills-hub .os-card {
+    grid-row: 7;
+    grid-column: 7/10;
+}
+
+.skills-hub .cn-card {
+    grid-row: 8;
+    grid-column: 7/10;
+}
+
+
+
+
 .contact {
     display: flex;
     align-items: center;
@@ -264,10 +432,9 @@ a {
 .contact-container {
     /* height: 80dvh; */
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+    border: 4px dotted rgb(237, 237, 237);
 
-    /* border: 2px solid black; */
-   
 }
 
 .contact-container .contact-btn-section {
@@ -312,17 +479,19 @@ a {
 
 
 
+
+
 .footer {
-    /* border: 2px solid black; */
+
     /* max-width: 80%;
     margin-inline: auto; */
     text-align: center;
     padding: 2rem;
- 
+
     border-top: 1px solid rgb(239, 238, 238);
-    position: sticky;
+    /* position: sticky;
     bottom: 0;
 
 
-    z-index: 1000;
+    z-index: 1000; */
 }
