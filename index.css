@@ -494,6 +494,10 @@ a {
 
 @media screen and (max-width: 1080px) {
 
+    .cover80 {
+        height: 80vh;
+    }
+
 
     .body {
         gap: 20px;
