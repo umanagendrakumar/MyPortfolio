@@ -23,10 +23,10 @@ const Contact = () => {
             <div className="contact-container">
                 <h1 className="contact-heading">Come on, Lets's work together</h1>
                 <div className="contact-links-section links-section">
-                    <a href="https://www.linkedin.com/in/kunk/" className="body-link linkedin-link">LinkedIn</a>
+                    {/* <a href="https://www.linkedin.com/in/kunk/" className="body-link linkedin-link">LinkedIn</a>
                     <a href="https://github.com/umanagendrakumar" className="body-link github-link">GitHub</a>
-                    <a href="https://leetcode.com/u/KunkLeetcodeId/" className="body-link leetcode-link">Leetcode</a>
-                    <a href="mailto:kambalaumanagendrakumar@gmail.com" className="body-link gmail-link">Gmail</a>
+                    <a href="https://leetcode.com/u/KunkLeetcodeId/" className="body-link leetcode-link">Leetcode</a> */}
+                    {/* <a href="mailto:kambalaumanagendrakumar@gmail.com" className="body-link gmail-link">Gmail</a> */}
                 </div>
                 <div className="contact-form">
                     <form onSubmit={sendEmail}>
