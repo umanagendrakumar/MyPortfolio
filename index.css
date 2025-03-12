@@ -26,7 +26,7 @@
     top: 0;
     z-index: 1000;
 
-    height: 10vh;
+    /* height: 17vh; */
 }
 
 .header .logo-img {
@@ -50,7 +50,9 @@ a {
 }
 
 .cover80 {
-    height: 90vh;
+    /* height: 96vh; */
+    margin-block: 4rem;
+    padding-block: 4rem;
 }
 
 .body,
@@ -300,8 +302,6 @@ a {
     justify-content: center;
     align-items: center;
     /* padding: 10px; */
-
-
 }
 
 .skills-hub .dev-card,
@@ -420,6 +420,15 @@ a {
 }
 
 
+/* projects section */
+
+.projects {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 .contact {
@@ -429,33 +438,31 @@ a {
     padding: 2rem;
 }
 
-.contact-container {
-    /* height: 80dvh; */
+.contact-container{
     text-align: center;
     padding: 2rem;
-    border: 4px dotted rgb(237, 237, 237);
-
+    border: 2px dotted rgb(237, 237, 237);
 }
 
 .contact-container .contact-btn-section {
-    /* border: 2px solid red; */
+    /* border: 2px solid red;
     display: flex;
     gap: 50px;
     justify-content: center;
-    padding: 20px;
+    padding: 20px; */
 }
 
-.contact-btn {
+/* .contact-btn {
     padding-inline: 10px;
     padding-block: 7px;
     border-radius: 7px;
     border: 1px solid rgb(208, 207, 207);
-    /* background: ; */
-}
+    
+} */
 
 .contact-form {
     /* border: 2px solid rebeccapurple; */
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
 }
 
 .contact-form form {
@@ -494,10 +501,7 @@ a {
 
 @media screen and (max-width: 1080px) {
 
-    .cover80 {
-        height: 80vh;
-    }
-
+  
 
     .body {
         gap: 20px;
@@ -573,6 +577,47 @@ a {
 
     .about-left .about-para {
         font-size: 16px;
+    }
+
+}
+
+
+@media screen and (max-width: 720px) {
+    .header .navitems {
+        display: none;
+    }
+
+    .body {
+        flex-direction: column;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .skills-wrapper .skills-hub .skill-card {
+        min-width: 150px;
+        min-height: 40px;
+        font-size: 13px;
+    }
+
+    .contact-form form {
+        max-width: 300px;
+ 
+    }
+
+    .contact-container .contact-heading {
+        font-size: 20px;
+    }
+     
+
+}
+
+@media screen and (max-width: 520px) {
+    .skills-wrapper .skills-hub .skill-card {
+        min-width: 120px;
+        min-height: 30px;
+        font-size: 10px;
     }
 
 }
