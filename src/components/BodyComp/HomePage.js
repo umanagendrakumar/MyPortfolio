@@ -1,12 +1,13 @@
 
 import initialPic from '../../../assets/initial-pic.jpg';
+import aboutPic from '../../../assets/Photo.png';
 
 const Home = () => {
     return (
         <div className="body cover80" id='home'>
             <div className="body-left">
                 <div className="body-img-container img-container">
-                    <img className="body-img my-image" src={initialPic} alt="my-pic" />
+                    <img className="body-img my-image" alt="my-pic" src={initialPic}/>
                 </div>
             </div>
             <div className="body-right">
