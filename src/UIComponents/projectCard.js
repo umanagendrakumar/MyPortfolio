@@ -1,4 +1,6 @@
 import gradeConverterImg from "../../assets/proj-gpaConverter.png";
+import todoListImg from "../../assets/proj-todoList.png";
+import portfolioImg from "../../assets/proj-portfolio.png";
 
 
 export const projectList = [{
@@ -6,8 +8,22 @@ export const projectList = [{
     imgUrl: gradeConverterImg,
     title: "GPA Converter",
     liveUrl: "https://uma03.netlify.app/",
-    githubUrl: ""
+    githubUrl: "https://github.com/umanagendrakumar/5thSemester-Grade-to-SGPA"
 },
+{
+    index: 2,
+    imgUrl: todoListImg,
+    title: "To-Do List With Bin",
+    liveUrl: "https://uma-todolist.netlify.app/",
+    githubUrl: "https://github.com/umanagendrakumar/Todo_List"
+},
+{
+    index: 3,
+    imgUrl: portfolioImg,
+    title: "My Portfolio",
+    liveUrl: "https://kunk-portfolio.netlify.app/",
+    githubUrl: "https://github.com/umanagendrakumar/MyPortfolio"
+}
 ];
 
 
