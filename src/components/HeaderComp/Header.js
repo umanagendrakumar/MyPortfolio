@@ -5,7 +5,9 @@ const Header = () => {
     return (
 
         <div className="header">
-            <img className="logo-img" src={logo} alt="logo" />
+            <a href="/">
+                <img className="logo-img" src={logo} alt="logo" />
+            </a>
             <div className="navitems">
                 <Link to="home" smooth={true} duration={500}>Home</Link>
                 <Link to="about" smooth={true} duration={500}>About</Link>
