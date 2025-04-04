@@ -19,14 +19,14 @@ const Contact = () => {
         e.target.reset(); // Reset the form after submission
     };
     return (
-        <div className="contact cover80">
+        <section className="contact cover80">
             <div className="contact-container">
-                <h1 className="contact-heading">Come on, Lets's work together</h1>
+                <h1 className="contact-heading">Come on, Lets's connect eachOther</h1>
                 <div className="contact-links-section links-section">
-                    {/* <a href="https://www.linkedin.com/in/kunk/" className="body-link linkedin-link">LinkedIn</a>
-                    <a href="https://github.com/umanagendrakumar" className="body-link github-link">GitHub</a>
-                    <a href="https://leetcode.com/u/KunkLeetcodeId/" className="body-link leetcode-link">Leetcode</a> */}
-                    {/* <a href="mailto:kambalaumanagendrakumar@gmail.com" className="body-link gmail-link">Gmail</a> */}
+                    <a href="https://www.facebook.com/lazyKUNK/" className="body-link facebook-link">Facebook</a>
+                    <a href="https://www.instagram.com/lazy__monarch______/" className="body-link instagram-link">Instagram</a>
+                    <a href="https://x.com/____KunK____" className="body-link github-link">X</a>
+                    <a href="mailto:kambalaumanagendrakumar@gmail.com" className="body-link gmail-link">Gmail</a>
                 </div>
                 <div className="contact-form">
                     <form onSubmit={sendEmail}>
@@ -38,7 +38,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
 
     );
 
