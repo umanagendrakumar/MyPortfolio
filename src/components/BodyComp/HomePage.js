@@ -4,10 +4,10 @@ import aboutPic from '../../../assets/Photo.png';
 
 const Home = () => {
     return (
-        <div className="body cover80" id='home'>
+        <section className="body cover80" id='home'>
             <div className="body-left">
                 <div className="body-img-container img-container">
-                    <img className="body-img my-image" alt="my-pic" src={initialPic}/>
+                    <img className="body-img my-image" alt="my-pic"/>
                 </div>
             </div>
             <div className="body-right">
@@ -24,7 +24,7 @@ const Home = () => {
                     <a href="https://leetcode.com/u/KunkLeetcodeId/" className="body-link leetcode-link">Leetcode</a>
                 </div>
             </div>
-        </div>
+        </section>
 
     );
 }

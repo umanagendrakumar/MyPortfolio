@@ -4,7 +4,7 @@ import { projectList } from "../../UIComponents/projectCard";
 
 const Projects = () => {
     return (
-        <div className="projects cover80">
+        <section className="projects cover80">
             <h1 className="project-heading">Projects</h1>
             <div className="project-cards">
             {
@@ -13,7 +13,7 @@ const Projects = () => {
                 })
             }
             </div>
-        </div>
+        </section>
     );
 
 };
