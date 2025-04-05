@@ -3,6 +3,7 @@ import initialPic from '../../../assets/initial-pic.jpg';
 import aboutPic from '../../../assets/Photo.png';
 
 const Home = () => {
+
     return (
         <section className="body cover80" id='home'>
             <div className="body-left">
