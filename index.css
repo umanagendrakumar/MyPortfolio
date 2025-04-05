@@ -51,8 +51,9 @@ a {
 }
 
 .cover80 {
-    height: 100vh;
-    padding-block: 4rem;
+    /* height: 100vh; */
+    /* margin-block: 4rem; */
+    padding-block: 6rem;
 }
 
 .body,
@@ -524,6 +525,11 @@ a {
     border: 2px dotted rgb(237, 237, 237);
 }
 
+.contact-container .contact-links-section {
+ display: flex;
+ flex-wrap: wrap;
+}
+
 
 
 /* .contact-btn {
@@ -671,6 +677,12 @@ a {
         font-size: 13px;
     }
 
+   
+   
+
+
+    
+
     .contact-form form {
         max-width: 300px;
 
@@ -688,6 +700,11 @@ a {
         min-width: 120px;
         min-height: 30px;
         font-size: 10px;
+    }
+
+     .projects .project-cards .projectCard {
+        width: 280px;
+        padding-inline: 1rem;
     }
 
 }
