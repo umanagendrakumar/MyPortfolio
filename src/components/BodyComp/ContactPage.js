@@ -26,7 +26,7 @@ const Contact = () => {
                     <a href="https://www.facebook.com/lazyKUNK/" className="body-link facebook-link">Facebook</a>
                     <a href="https://www.instagram.com/lazy__monarch______/" className="body-link instagram-link">Instagram</a>
                     <a href="https://x.com/____KunK____" className="body-link github-link">X</a>
-                    <a href="mailto:kambalaumanagendrakumar@gmail.com" className="body-link gmail-link">Gmail</a>
+                    {/* <a href="mailto:kambalaumanagendrakumar@gmail.com" className="body-link gmail-link">Gmail</a> */}
                 </div>
                 <div className="contact-form">
                     <form onSubmit={sendEmail}>
@@ -34,7 +34,7 @@ const Contact = () => {
                         <input type="email" name="email" placeholder="Email" required></input>
                         <input type="tel" name="phno" pattern="[0-9]{10}" placeholder="Contact No (96761XXXXX)" minLength={10} maxLength={10} required></input>
                         <textarea name="message" placeholder="Message" required></textarea>
-                        <input className="contact-submit" type="submit" value={"S u b m i t  (if serious)"}></input>
+                        <input className="contact-submit" type="submit" value={"Send Mail"}></input>
                     </form>
                 </div>
             </div>
