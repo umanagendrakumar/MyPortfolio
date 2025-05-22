@@ -13,7 +13,7 @@ const Projects = () => {
                         alt="Tailwind CSS Carousel component" />
                     <h1 className="font-bold text-2xl mb-2">DEVcharge</h1>
                     <p className="mb-2">A real-time matchmaking platform where developers can discover and connect with like-minded peers, inspired by Tinder, but built for devs.</p>
-                    <p className="mb-2 text-red-400">Only BackEnd Completed</p>
+                    <p className="mb-2 text-red-400 text-sm">Only BackEnd Completed</p>
                     <p className="mb-4 text-violet-400 font-medium">Tech: MERN stack</p>
                     <div className="flex items-center gap-4">
                         <a href="" className="btn btn-primary">Live</a>
@@ -27,6 +27,7 @@ const Projects = () => {
                         alt="Tailwind CSS Carousel component" />
                     <h1 className="font-bold text-2xl mb-2">BiteFood</h1>
                     <p className="mb-2">BiteFood is a mini food web application inspired by Swiggy. This project is a work in progress and is helping me strengthen my React development skills.</p>
+                    <p className="mb-2 text-red-400 text-xs">To Go live CORS Extension Recommended - <a href="https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en" className="text-sm font-bold underline">Install</a></p>
                     <p className="mb-4 text-violet-400 font-medium">Tech: React.js + Taiwind CSS</p>
                     <div className="flex items-center gap-4">
                         <a href="https://projectbitefood.netlify.app/" className="btn btn-primary">Live</a>
@@ -39,8 +40,8 @@ const Projects = () => {
                         className="w-full h-[50%] object-fill mb-4"
                         alt="Tailwind CSS Carousel component" />
                     <h1 className="font-bold text-2xl mb-2">Portfolio</h1>
-                    <p className="mb-2">A personal portfolio website built with React and Tailwind CSS to showcase my projects, skills, and experience.  
-It reflects my development style, UI design approach. </p>
+                    <p className="mb-2">A personal portfolio website built with React and Tailwind CSS to showcase my projects, skills, and experience.
+                        It reflects my development style, UI design approach. </p>
                     <p className="mb-4 text-violet-400 font-medium">Tech: React.js + Taiwind CSS</p>
                     <div className="flex items-center gap-4">
                         <a href="#" className="btn btn-primary">Live</a>
@@ -53,9 +54,9 @@ It reflects my development style, UI design approach. </p>
                         className="w-full h-[50%] object-fill mb-4"
                         alt="Tailwind CSS Carousel component" />
                     <h1 className="font-bold text-2xl mb-2">GPA Converter</h1>
-                    <p className="mb-2">A GPA Converter built using HTML, CSS, and JavaScript to solve a real problem faced by me and my friends.  
-It quickly converts grades to SGPA using a simple, user-friendly interface.
-</p>
+                    <p className="mb-2">A GPA Converter built using HTML, CSS, and JavaScript to solve a real problem faced by me and my friends.
+                        It quickly converts grades to SGPA using a simple, user-friendly interface.
+                    </p>
                     <p className="mb-4 text-violet-400 font-medium">Tech: HTML, CSS, JavaScript</p>
                     <div className="flex items-center gap-4">
                         <a href="https://uma03.netlify.app/" className="btn btn-primary">Live</a>
