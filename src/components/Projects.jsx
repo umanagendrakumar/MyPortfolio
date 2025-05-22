@@ -13,6 +13,7 @@ const Projects = () => {
                         alt="Tailwind CSS Carousel component" />
                     <h1 className="font-bold text-2xl mb-2">DEVcharge</h1>
                     <p className="mb-2">A real-time matchmaking platform where developers can discover and connect with like-minded peers, inspired by Tinder, but built for devs.</p>
+                    <p className="mb-2 text-red-400">Only BackEnd Completed</p>
                     <p className="mb-4 text-violet-400 font-medium">Tech: MERN stack</p>
                     <div className="flex items-center gap-4">
                         <a href="" className="btn btn-primary">Live</a>
@@ -63,10 +64,10 @@ It quickly converts grades to SGPA using a simple, user-friendly interface.
                 </div>
             </div>
             <div className="flex w-full justify-center gap-2 py-2">
-                <a href="#project1" className="btn btn-md">1</a>
-                <a href="#project2" className="btn btn-md">2</a>
-                <a href="#project3" className="btn btn-md">3</a>
-                <a href="#project4" className="btn btn-md">4</a>
+                <a href="#project1" className="btn btn-sm">1</a>
+                <a href="#project2" className="btn btn-sm">2</a>
+                <a href="#project3" className="btn btn-sm">3</a>
+                <a href="#project4" className="btn btn-sm">4</a>
             </div>
 
         </main>
