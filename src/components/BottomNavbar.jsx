@@ -5,11 +5,11 @@ const BottomNavbar = () => {
     return(
         <div className="flex justify-center sm:hidden pb-2">
                 <ul className="flex text-xl gap-10">
-                    <li><Link to="/"><FaHome title="Home" /></Link></li>
-                    <li><Link to="/about"><FaUser title="About" /></Link></li>
-                    <li><Link to="/projects"><FaProjectDiagram title="Projects" /></Link></li>
-                    <li><Link to="/skills"><FaTools title="Skills" /></Link></li>
-                    <li><Link to="/contact"><FaEnvelope title="Contact" /></Link></li>
+                    <li className=' hover:text-violet-300'><Link to="/"><FaHome title="Home"/></Link></li>
+                    <li className=' hover:text-violet-300'><Link to="/about"><FaUser title="About" /></Link></li>
+                    <li className=' hover:text-violet-300'><Link to="/projects"><FaProjectDiagram title="Projects" /></Link></li>
+                    <li className=' hover:text-violet-300'><Link to="/skills"><FaTools title="Skills" /></Link></li>
+                    <li className=' hover:text-violet-300'><Link to="/contact"><FaEnvelope title="Contact" /></Link></li>
                 </ul>
             </div>
     );
