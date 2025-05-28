@@ -53,7 +53,7 @@ const Contact = () => {
                     </div>
                 )}
             </div>
-            <div className="border p-4 w-[600px]">
+            <div className="p-4 w-[600px]">
                 <h1 className="mb-4">Come on, Lets's <span className=' text-violet-300 text-xl'>connect eachOther</span></h1>
                 <form onSubmit={sendEmail} className='flex flex-col gap-4'>
                     <input className='border p-2' type="text" name="name" placeholder="Name" required></input>
