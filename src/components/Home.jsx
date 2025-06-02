@@ -15,7 +15,7 @@ const Home = () => {
                     <h2 className="card-title text-2xl">Hello, I'm</h2>
                     <h2 className="card-title text-2xl text-violet-400">Kambala Uma Nagendra Kumar</h2>
                     <p className="text-xl">Aspiring Developer</p>
-                    <p className="text-md">Software Developer | Full Stack Developer | BackEnd Developer</p>
+                    <p className="text-md">Front-End Developer | Back-End Developer | Full Stack Developer</p>
                     <p className="text-xs text-justify hidden sm:block">I am always eager to collaborate with like-minded professionals, take on challenging projects, and stay updated with the latest advancements in modern technologies.</p>
                     <div className="card-actions mt-4">
                         <a href="https://www.linkedin.com/in/kunk/" className="text-2xl mr-4"><FaLinkedin /></a>
