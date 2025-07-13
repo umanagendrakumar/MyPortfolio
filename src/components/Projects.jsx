@@ -13,10 +13,9 @@ const Projects = () => {
                         alt="Tailwind CSS Carousel component" />
                     <h1 className="font-bold text-2xl mb-2">DEVcharge</h1>
                     <p className="mb-2">A real-time matchmaking platform where developers can discover and connect with like-minded peers, inspired by Tinder, but built for devs.</p>
-                    <p className="mb-2 text-red-400 text-sm">Only BackEnd Completed</p>
                     <p className="mb-4 text-violet-400 font-medium">Tech: MERN stack</p>
                     <div className="flex items-center gap-4">
-                        <a href="" className="btn btn-primary">Live</a>
+                        <a href="https://devcharge.netlify.app/" className="btn btn-primary">Live</a>
                         <a href="https://github.com/umanagendrakumar/DEVcharge-BackEnd" className="btn btn-primary">Github</a>
                     </div>
                 </div>
