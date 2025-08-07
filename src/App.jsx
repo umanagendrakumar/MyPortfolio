@@ -27,10 +27,10 @@ const RoutesWithDynamicHeading = () => {
   useEffect(() => {
     const path = location.pathname;
     if (path === "/") setHeading("KunK");
-    else if (path === "/about") setHeading("About");
-    else if (path === "/projects") setHeading("Projects");
-    else if (path === "/skills") setHeading("Skills");
-    else if (path === "/contact") setHeading("Contact");
+    else if (path === "/about") setHeading("ABOUT");
+    else if (path === "/projects") setHeading("PROJECTS");
+    else if (path === "/skills") setHeading("SKILLS");
+    else if (path === "/contact") setHeading("CONTACT");
     else setHead("KunK"); // fallback
   }, [location.pathname]);
 
