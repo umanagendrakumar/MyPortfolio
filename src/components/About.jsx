@@ -8,7 +8,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row justify-center items-center gap-4 my-auto">
                 <div className="items-center text-justify max-w-[450px]">
                     <h2 className="card-title text-2xl mb-2">Who am I ?</h2>
-                    <p className="text-sm">Hey there! I’m a final-year Computer Science Engineering student at Acharya Nagarjuna University with a deep passion for solving real-world problems through code.
+                    <p className="text-sm">Hey there! I’m a recent Computer Science Engineering Graduate from Acharya Nagarjuna University with a deep passion for solving real-world problems through code.
 
                         Over time, I’ve developed a strong foundation in the <span className=' text-violet-300 font-bold'>MERN Stack, Tailwind CSS, Java,</span> and version control tools like <span className=' text-violet-300 font-bold'>Git & GitHub</span>. I'm also sharpening my problem-solving skills by diving deep into <span className=' text-violet-300 font-bold'>Data Structures and Algorithms (DSA)</span> — because I believe writing efficient code is just as important as writing functional code.
 
