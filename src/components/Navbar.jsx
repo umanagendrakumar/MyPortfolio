@@ -5,7 +5,7 @@ const Navbar = ({value}) => {
     return ( 
         <nav className="navbar flex justify-around bg-base-300 sticky top-0 z-1">
             <div>
-                <Link to="/" className="font-bold text-xl">{value}</Link>
+                <Link to="/" className="font-semibold text-xl">{value}</Link>
             </div>
             <div className="hidden sm:block">
                 <ul className="flex text-xl gap-8 ">
