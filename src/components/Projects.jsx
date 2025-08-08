@@ -52,13 +52,13 @@ const projectsData = [
 const Projects = () => {
     return (
         <main className="card bg-base-100 px-6 shadow-sm flex-1 flex justify-center items-center">
-            <div className="carousel max-w-[300px] h-114">
+            <div className="carousel max-w-[350px] h-124">
                 {
                     projectsData.map((project) => (
                         <div key={project.id} id={project.id} className="carousel-item w-full flex flex-col">
                             <img
                                 src={project.imageUrl}
-                                className="w-full h-[50%] object-fill mb-4"
+                                className="w-full h-[50%] object-fill rounded mb-4"
                                 alt={project.title}
                             />
                             <h1 className="font-bold text-2xl mb-2">{project.title}</h1>
