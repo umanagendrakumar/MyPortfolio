@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FiDownload, FiUser } from 'react-icons/fi'
 import { MdPerson } from 'react-icons/md';
+import resume from "../assets/UmaNagendra_Resume.pdf";
 
 const About = () => {
     return (
@@ -16,7 +17,7 @@ const About = () => {
 
                         <br></br> <br></br>Let’s connect, create, and code something impactful together!</p>
                     <div className="card-actions mt-4">
-                        <button className="btn btn-primary"><FiDownload />Resume</button>
+                        <a href={resume} className="btn btn-primary"><FiDownload />Resume</a>
                         <Link to='/contact' className="btn btn-primary"><MdPerson />Contact Me</Link>
                     </div>
 
