@@ -1,11 +1,15 @@
-import converterImg from "../assets/converter.png"
+import devcharge from "../assets/devcharge.png"
 import biteFood from "../assets/biteFood.png"
 import portfolio from "../assets/portfolio.png"
+import converterImg from "../assets/converter.png"
+import ultraEditClone from "../assets/ultraEditClone.png" 
+import todoList from "../assets/todoList.png"
+import profileCard from "../assets/profileCard.png"
 
 const projectsData = [
     {
         id: "project1",
-        imageUrl: "https://cdn-dkepej.nitrocdn.com/xHPizjaXJNONuYnLnfsGSUCsMnIlzOEq/assets/images/optimized/rev-ef469ea/blog.frame.io/wp-content/uploads/2023/02/insider-tips-resolve.jpg",
+        imageUrl: devcharge,
         title: "DEVcharge",
         description: "A real-time matchmaking platform where developers can discover and connect with like-minded peers, inspired by Tinder, but built for devs.",
         tech: "MERN stack",
@@ -48,6 +52,40 @@ const projectsData = [
             github: "https://github.com/umanagendrakumar/5thSemester-Grade-to-SGPA",
         },
     },
+    {
+        id: "project5",
+        imageUrl: ultraEditClone,
+        title: "UltraEdit Clone",
+        description: "A responsive UltraEdit clone built with HTML and CSS, featuring a clean and user-friendly interface that adapts smoothly to different screen sizes.",
+        tech: "HTML, CSS",
+        project5: true,
+        links: {
+            live: "https://uma-ultraedit.netlify.app/",
+            github: "https://github.com/umanagendrakumar/UltraEdit_Clone",
+        },
+    },
+    {
+        id: "project6",
+        imageUrl: todoList,
+        title: "Todo List",
+        description: "A simple and interactive To-Do List web app built with HTML, CSS. Users can add, delete, and mark tasks as completed. Tasks are saved in the browser’s local storage.",
+        tech: "HTML, CSS",
+        links: {
+            live: "https://uma-todolist.netlify.app/",
+            github: "https://github.com/umanagendrakumar/Todo_List",
+        },
+    },
+    {
+        id: "project7",
+        imageUrl: profileCard,
+        title: "Profile Card",
+        description: "A responsive profile card built using HTML and CSS. This was my first frontend project helping me understand layout, styling. A Small try haha...",
+        tech: "HTML, CSS",
+        links: {
+            live: "https://uma-card.netlify.app/",
+            github: "https://github.com/umanagendrakumar/My-Profile-Card",
+        },
+    },
 ]
 const Projects = () => {
     return (
@@ -73,6 +111,11 @@ const Projects = () => {
                                     >
                                         Install
                                     </a>
+                                </p>
+                            )}
+                            {project.project5 && (
+                                <p className="mb-2 text-sm text-cyan-200">
+                                Orginal Site : <a href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/" className="underline">view</a>
                                 </p>
                             )}
 
