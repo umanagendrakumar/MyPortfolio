@@ -14,7 +14,12 @@ const Projects = () => {
                             <h1 className="font-bold text-2xl mb-2">{project.title}</h1>
                             <p className="mb-2">{project.description}</p>
 
-                            {project.extra && (
+                            {project.extra4Proj2 && (
+                                <p className="mb-2 text-red-400">
+                                    Currently Working On it, <br />By 25AUG2025 it will be live
+                                </p>
+                            )}
+                            {project.extra4Proj3 && (
                                 <p className="mb-2 text-red-400 text-xs">
                                     To Go live CORS Extension Recommended -{" "}
                                     <a
@@ -25,21 +30,25 @@ const Projects = () => {
                                     </a>
                                 </p>
                             )}
-                            {project.project5 && (
+
+                            {project.extra4Proj6 && (
                                 <p className="mb-2 text-sm text-cyan-200">
-                                Orginal Site : <a href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/" className="underline">view</a>
+                                    Orginal Site : <a href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/" className="underline">view</a>
                                 </p>
                             )}
 
-                            <p className="mb-4 text-violet-400 font-medium">Tech: {project.tech}</p>
-                            <div className="flex items-center gap-4">
-                                <a href={project.links.live} className="btn btn-primary">
-                                    Live
-                                </a>
-                                <a href={project.links.github} className="btn btn-primary">
-                                    Github
-                                </a>
-                            </div>
+                            <p className="border-x-2 border-violet-200 rounded max-w-fit px-2 mb-4 text-violet-400 font-medium">Tech: {project.tech}</p>
+
+                            {project?.links?.active && (
+                                <div className="flex items-center gap-4">
+                                    <a href={project.links.live} className="btn btn-primary">
+                                        Live
+                                    </a>
+                                    <a href={project.links.github} className="btn btn-primary">
+                                        Github
+                                    </a>
+                                </div>
+                            )}
                         </div>
                     ))
                 }
