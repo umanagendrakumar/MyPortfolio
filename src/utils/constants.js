@@ -27,8 +27,8 @@ export const projectsData = [
         description: "A Netflix clone integrated with OpenAI's GPT, allowing users to search for movies and get recommendations based on their preferences.",
         tech: "React.js + Taiwind CSS",
         links: {
-            live: "",
-            github: "",
+            live: "#",
+            github: "#",
         },
         extra4Proj2: true,
     },
