@@ -1,5 +1,5 @@
 import devcharge from "../assets/devcharge.png"
-import netflicGPT from "../assets/NetflicGPT.png"
+import netflicGPT from "../assets/netflicGPT.png"
 import biteFood from "../assets/biteFood.png"
 import portfolio from "../assets/portfolio.png"
 import converterImg from "../assets/converter.png"
