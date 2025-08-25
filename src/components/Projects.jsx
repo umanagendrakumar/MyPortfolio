@@ -16,7 +16,7 @@ const Projects = () => {
 
                             {project.extra4Proj2 && (
                                 <p className="mb-2 text-red-400">
-                                    Currently Working On it, <br />By 25AUG2025 it will be live
+                                    Currently Working On it, Deploy Soon...
                                 </p>
                             )}
                             {project.extra4Proj3 && (
