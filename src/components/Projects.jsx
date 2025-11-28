@@ -1,10 +1,10 @@
-import { projectsData } from "../utils/constants";
+import { projectsInfo } from "../utils/projectsInfo";
 const Projects = () => {
     return (
         <main className="card bg-base-100 px-6 shadow-sm flex-1 flex justify-center items-center">
             <div className="carousel max-w-[350px] h-124">
                 {
-                    projectsData.map((project) => (
+                    projectsInfo.map((project) => (
                         <div key={project.id} id={project.id} className="carousel-item w-full flex flex-col">
                             <img
                                 src={project.imageUrl}
@@ -56,7 +56,7 @@ const Projects = () => {
 
             <div className="flex w-full justify-center gap-2 py-2">
                 {
-                    projectsData.map((project, index) => {
+                    projectsInfo.map((project, index) => {
                         return <a key={index} href={`#${project.id}`} className="btn btn-sm">{index + 1}</a>
                     })
                 }
