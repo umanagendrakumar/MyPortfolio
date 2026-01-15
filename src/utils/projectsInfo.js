@@ -29,7 +29,7 @@ export const projectsInfo = [
         links: {
             active: true,
             live: "https://netflicgpt.netlify.app/",
-            github: "#",
+            github: "https://github.com/umanagendrakumar/netflicgpt",
         },
     },
     {
