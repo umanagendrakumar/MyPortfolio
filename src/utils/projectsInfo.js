@@ -13,7 +13,7 @@ export const projectsInfo = [
         imageUrl: devcharge,
         title: "DevCharge",
         description: "A real-time matchmaking platform where developers can discover and connect with like-minded peers, inspired by Tinder, but built for devs.",
-        tech: "Springboot + React.js",
+        tech: "Node.js + React.js",
         links: {
             active: true,
             live: "https://devcharge.netlify.app/",
