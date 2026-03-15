@@ -18,7 +18,6 @@ const About = () => {
                         <br></br> <br></br>Let’s connect, create, and code something impactful together!</p>
                     <div className="card-actions mt-4">
                         <a href={resume} className="btn btn-primary"><FiDownload />Resume</a>
-                        <Link to='/contact' className="btn btn-primary"><MdPerson />Contact Me</Link>
                     </div>
 
                 </div>
